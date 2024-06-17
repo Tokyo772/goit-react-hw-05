@@ -1,0 +1,82 @@
+.movieDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #09161c;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  gap: 20px;
+}
+.tag {
+  color: rgba(255, 255, 255, 0.5);
+}
+.movieImage {
+  margin-right: 20px;
+}
+
+.movieImage img {
+  border-radius: 8px;
+  width: 200px;
+}
+
+.movieInfo {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #444;
+}
+
+th {
+  text-align: left;
+  background-color: #555;
+  color: #ffffff;
+}
+
+td {
+  background-color: #333;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 1px;
+  color: #fff;
+}
+.movieLink {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  text-align: left;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.movieLink:hover {
+  color: #ffcc00;
+  background-color: #444;
+}
+
+.link {
+  color: rgb(170, 155, 155);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: orange;
+}
+.navContainer {
+  display: flex;
+  gap: 10px;
+}

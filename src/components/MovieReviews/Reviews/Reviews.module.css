@@ -1,0 +1,62 @@
+.reviewsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reviewItem {
+  background-color: #09161c;
+  border: 1px solid #9385e3;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.authorInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+.rating {
+  font-size: 14px;
+  color: #888;
+}
+
+.date {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.reviewLink {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.reviewLink:hover {
+  text-decoration: underline;
+}
